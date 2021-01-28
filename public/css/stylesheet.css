@@ -1,0 +1,94 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.btn.btn-outline-light.btn-lg {
+  margin: 20px;
+}
+
+.welcome-page {
+  background-image: url("/image/scenery/bundaran-its-580.png");
+  color: rgba(0,0,0,0.8);
+}
+
+.button-nav {
+  display: inline-block;
+  width: 100%;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+}
+
+.button-nav:hover {
+  text-decoration: none;
+}
+
+.button-in-page {
+  display: inline-block;
+  padding: 10px 20px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.button-in-page:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.time-body {
+  background-color: #4da2e3;
+  font-family: Helvetica, sans-serif;
+}
+
+.time-content:hover {
+  transform: scale(1.05);
+}
+
+.logo {
+  margin-right: 20px;
+  height: 60px;
+  margin-top: -5px;
+}
+
+.navbar-brand h3 {
+  display: inline-block;
+  margin-top: 10px;
+  float: right;
+}
+
+@media (max-width: 1200px) {
+  #full {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  #abv {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    height: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  #abv {
+    margin-top: 5px;
+  }
+}
+
+@media (min-width: 573px) {
+  #alt {
+    display: none;
+  }
+}
+
+@media (max-width: 573px) {
+  #real {
+    display: none;
+  }
+}
+
