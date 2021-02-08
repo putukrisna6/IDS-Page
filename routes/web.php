@@ -31,6 +31,10 @@ Route::get('pages/contact', function () {
     return view('pages/contact');
 });
 
+// routes to blog
+Route::get('blogs/19-12-20', function () {
+    return view('pages/blogs/19-12-20');
+});
 
 Auth::routes();
 

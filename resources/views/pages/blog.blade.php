@@ -9,9 +9,14 @@
         </div>
         <div class="block-content">
             <div class="clean-blog-post">
-                <div class="d-flex align-items-center justify-content-center flex-column">
-                    <h2 class="mb-3">Coming Soon!</h2>
-                    <p>Check back later to see helpful tips to advance your debating career</p>
+                <div class="row">
+                    <div class="col-lg-4"><img class="rounded img-fluid" src="/image/blog-photos/blogImg.png"></div>
+                    <div class="col-lg-8">
+                        <h3>Videos on Motion Analysis</h3>
+                        <div class="info"><span class="text-muted">19th of December, 2020 by&nbsp;<a href="#">Elfirza Zain</a></span></div>
+                        <p>A curated list of helpful videos that meticulously dissect various motions.</p>
+                        <button class="btn btn-outline-primary btn-sm" type="button"><a class="button-in-page" style="padding: 2px"href="{{ url('blogs/19-12-20') }}">Read More</a></button>
+                    </div>
                 </div>
             </div>
         </div>
