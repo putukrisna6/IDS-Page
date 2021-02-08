@@ -10,7 +10,7 @@
         <div class="row">
             @foreach (App\Models\Honor::all() as $honor)
                 <div class="col-md-6 col-lg-4">
-                    <div class="card"><img class="card-img-top w-100 d-block" src="/storage/{{$honor->image}}">
+                    <div class="card"><img class="card-img-top w-100 d-block" src="{{$honor->image}}">
                         <div class="card-body">
                             <h4 class="card-title">{{$honor->title}}<br></h4>
                         </div>
