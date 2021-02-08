@@ -9,12 +9,9 @@
         </div>
         <div class="block-content">
             <div class="clean-blog-post">
-                <div class="row">
-                    <div class="col-lg-5"><img class="rounded img-fluid" src="/image/blog-photos/blog.jpg"></div>
-                    <div class="col-lg-7">
-                        <h3>How to Debate</h3>
-                        <div class="info"><span class="text-muted">Jan 01, 2077 by&nbsp;<a href="#">Ichlas</a></span></div>
-                        <p>Trump bad</p><button class="btn btn-outline-primary btn-sm" type="button">Read More</button></div>
+                <div class="d-flex align-items-center justify-content-center flex-column">
+                    <h2 class="mb-3">Coming Soon!</h2>
+                    <p>Check back later to see helpful tips to advance your debating career</p>
                 </div>
             </div>
         </div>

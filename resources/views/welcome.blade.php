@@ -18,7 +18,7 @@
                 <h3>IDS Members</h3>
                 <div class="getting-started-info">
                     <p>IDS aims to be an inclusive community that accepts ITS students from different backgrounds</p>
-                </div><button class="btn btn-outline-primary btn-lg" type="button" style="padding: 0px;"><a class="button-in-page" href="#">Meet The Staffs</a></button></div>
+                </div><button class="btn btn-outline-primary btn-lg" type="button" style="padding: 0px;"><a class="button-in-page" href="{{ url('pages/staffs') }}">Meet The Staffs</a></button></div>
         </div>
     </div>
 </section>
@@ -26,7 +26,11 @@
     <div class="container">
         <div class="block-heading">
             <h2 class="text-info">Leave Us a Message</h2>
-            <p style="margin-bottom: 15px;">Contact us if you have any questions or just interested to connect with us.</p><button class="btn btn-outline-primary btn-lg" type="button" style="padding: 0px;"><a class="button-in-page" href="#">Contact Us</a></button></div>
+            <p style="margin-bottom: 15px;">Contact us if you have any questions or just interested to connect with us.</p>
+            <button class="btn btn-outline-primary btn-lg" type="button" style="padding: 0px;">
+                <a class="button-in-page" href="{{ url('pages/contact') }}">Contact Us</a>
+            </button>
+        </div>
     </div>
 </section>
 @endsection

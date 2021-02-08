@@ -117,10 +117,10 @@
 
               <ul class="list-unstyled">
                 <li>
-                  <a href="#!" class="text-white">Home</a>
+                  <a href="{{ url('/') }}" class="text-white">Home</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-white">Blogs</a>
+                  <a href="{{ url('pages/blog') }}" class="text-white">Blogs</a>
                 </li>
               </ul>
             </div>
@@ -132,10 +132,10 @@
 
               <ul class="list-unstyled">
                 <li>
-                  <a href="#!" class="text-white">Contact Us</a>
+                  <a href="{{ url('pages/contact') }}" class="text-white">Contact Us</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-white">Our Staffs</a>
+                  <a href="{{ url('pages/staffs') }}" class="text-white">Our Staffs</a>
                 </li>
               </ul>
             </div>
@@ -147,7 +147,7 @@
 
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-          © 2021 Putu Krisna Andyartha
+          © 2021 ITS Debating Society
         </div>
         <!-- Copyright -->
       </footer>

@@ -8,7 +8,7 @@
             <p>See what teams from ITS Debating Society has achieved from the past years</p>
         </div>
         <div class="row">
-            @foreach (App\Models\Honor::all() as $honor)
+            @foreach (App\Models\Honor::all()->sortByDesc('id') as $honor)
                 <div class="col-md-6 col-lg-4">
                     <div class="card"><img class="card-img-top w-100 d-block" src="{{$honor->image}}">
                         <div class="card-body">
